@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dvzi
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0015-tenant/cin4s-839-0015-app/devfile-sample-dvzi@sha256:7865a5b258884d5c5ce1318cc73bcee7d082d59e3c903de2881f69684c2d52d9
         name: my-nodejs
         ports:
         - containerPort: 3001
